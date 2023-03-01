@@ -20,6 +20,11 @@
 .fa-solid{
     padding: 10px;
     transform: scale(1.6);
+    transition: all 0.5s;
+}
+
+.fa-solid:hover{
+    transform: scale(2);
 }
 
 /* coração */
