@@ -1,5 +1,5 @@
 .container_formCadastro{
-    max-width: 40%;
+    width: 40%;
     margin: 30px auto;
     display: flex;
     flex-direction: column;
@@ -59,4 +59,11 @@
     color: #fff;
     background: #FE4617;
     border-radius: 30px;
+}
+
+@media (max-width: 900px){
+    .container_formCadastro{
+        width: 70%;
+    }
+
 }
