@@ -6,13 +6,6 @@
     align-items: center;
 }
 
-/* .flecha-voltar-link{
-    align-items: center;
-    display: flex;
-    margin-left: 20px;
-    text-decoration: none;
-} */
-
 .fa-solid{
     background: #FE4617;
     padding: 5px;
@@ -30,6 +23,6 @@
 }
 
 .logo_cabecalho-simples{
-    text-align: center;
     transform: scale(0.6);
+    margin: 0 auto;
 }
