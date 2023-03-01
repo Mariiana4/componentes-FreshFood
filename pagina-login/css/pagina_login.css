@@ -1,0 +1,38 @@
+/* Esqueceu senha: */
+
+em{
+    color: #FE4617;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.container_esqueceuSenha{
+    text-align: center;
+    font-weight: bold;
+    margin: 14px 0;
+}
+
+.titulo_esqueceuSenha{
+    color: #FE4617;
+    font-size: 13px;
+}
+
+.texto_esqueceuSenha{
+    width: 50%;
+    margin: auto;
+}
+
+.container-botao_formLogin{
+    margin: auto;
+}
+
+.botao-finalizar_formLogin{
+    background: #FE4617;
+    color: #FFF;
+    border: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
