@@ -1,0 +1,58 @@
+
+.container_rodape{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px #00000030;
+    align-items: center;
+}
+
+.logo_rodape{
+    text-align: center;
+    transform: scale(0.6);
+}
+
+.texto{
+    color: #FE4617;
+    margin-bottom: auto;
+}
+
+.titulo{
+    font-weight: 700;
+    text-align: center;
+}
+
+.linha{
+    border-color: #FE4617;
+    margin:30px auto;
+    width: 60%;
+}
+
+.descricao{
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    font-size: 17px;
+}
+
+.container_icone-redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone_redes-sociais{
+    transform: scale(0.7);
+    padding: 35px;
+    transition: all 0.5s;
+}
+
+.icone_redes-sociais:hover{
+    transform: scale(0.9);
+}
+.icone_redes-sociais:active{
+    background: #fe451722;
+    border-radius: 100%;
+    padding: 15px;
+}

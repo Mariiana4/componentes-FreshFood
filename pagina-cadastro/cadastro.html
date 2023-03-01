@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/cabecalho_simples.css">
+    <link rel="stylesheet" href="css/formulario_cadstro.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+
+<body>
+    <header class="cabecalho-simples">
+        <a class="flecha-voltar-link" href="#">
+            <img class="flecha-voltar-img" src="img/cabecalho/flecha-esquerda.ico" alt="">
+        </a>
+        <div class="container_logo_cabecalho-simples">
+               <img class="logo_cabecalho-simples" src="img/cabecalho/logo_cabecalho-simples.jpg" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="container_formCadastro">
+            <h2 class="titulo-cadastro_formCadastro">Cadastre-se</h2>
+
+            <form class="container_input-label_formCadastro">
+                <div class="input-label_formCadastro">
+                    <label class="label_formCadastro" for="nome-completo">Nome completo (Campo obrigatório)</label>
+                    <input class="input_fomrCadastro" type="text" id="nome-completo" placeholder="Obrigatório" required>
+                </div>
+
+                <div class="input-label_formCadastro">
+                    <label class="label_formCadastro" for="email">Email (Campo obrigatório)</label>
+                    <input class="input_fomrCadastro" type="email" name="email" id="email" placeholder="Obrigatório" required>
+                </div>
+
+                <div class="input-label_formCadastro">
+                    <label class="label_formCadastro" for="confirmar-email">Confirmar email (Campo obrigatório)</label>
+                    <input class="input_fomrCadastro" type="email" name="confirmarEmail" id="confirmar-email" placeholder="Obrigatório" required>
+                </div>
+
+                <div class="input-label_formCadastro">
+                    <label class="label_formCadastro" for="numero-celular">Número de celular (Campo opcional)</label>
+                    <input class="input_fomrCadastro" type="tel" name="numeroCelular" id="numero-celular" placeholder="Opcional" required>
+                </div>
+
+                <div class="input-label_formCadastro">
+                    <label class="label_formCadastro" for="senha">Senha (Campo obrigatório)</label>
+                    <input class="input_fomrCadastro" type="password" name="senha" id="senha" placeholder="Obrigatório" required>
+                </div>
+
+                <div class="input-label_formCadastro">
+                    <label class="label_formCadastro" for="confirmar-senha">Confirmar senha (Campo obrigatório)</label>
+                    <input class="input_fomrCadastro" type="password" name="confirmarSenha" id="confirmar-senha" placeholder="Obrigatório" required>
+                </div>
+
+                <div class="container-botao_formCadastro">
+                    <button class="botao-finalizar_formCadastro">Finalizar cadastro</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+    <footer class="container_rodape" id="sobre-nos">
+        
+        <img class="logo_rodape" src="img/rodape/rodape_imagens/logo02.jpg" alt="logo da marca, ilustraça de uma caixa verde com cenouras verdes e a escrita Fresh Food ao lado">
+        
+
+        <div class="texto">
+            <h2 class="titulo">Sobre a Fresh Food</h2>
+            <hr class="linha">
+            <p class="descricao">Somos um serviço de alimentação que entrega caixas com ingredientes para você preparar sua refeição em casa. As receitas e itens são cuidadosamente selecionados, de acordo com os desejos e necessidades dos nossos clientes, e entregues bem na sua porta. Tornamos incrivelmente fácil comer de forma saudável e deliciosa.</p>
+        </div>
+
+        <div class="container_icone-redes-sociais">
+            
+            <img class="icone_redes-sociais" src="img/rodape/rodape_imagens/facebook.svg" alt="icone Facebook"> <a href="#"></a>
+            
+            <img class="icone_redes-sociais" src="img/rodape/rodape_imagens/whatsapp.svg" alt="ogo whatsapp"><a href="#"></a>
+
+            <img class="icone_redes-sociais" src="img/rodape/rodape_imagens/instagram.svg" alt="icone instagram"><a href="#"></a>
+        </div>
+
+    </footer>
+</body>
+</html>
