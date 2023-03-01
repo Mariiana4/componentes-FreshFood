@@ -41,12 +41,21 @@
     justify-content: space-between;
     align-items: center;
     width: 25%;
-    margin: 25px 0;
+    margin: 50px 0;
 }
 
 .fa-brands{
     transition: all 0.5s;
     color: #0D5C2A;
-    font-size: 35px;
+    transform: scale(2.2);
+    padding: 5px;
 }   
+
+.fa-brands:hover{
+    transform: scale(2.7);
+}
+.fa-brands:active{
+    background: #0d5c2a41;
+    border-radius: 25px;
+}
  
