@@ -1,0 +1,75 @@
+/* Celular */
+@media(max-width: 400px){
+    .modal-receitas{
+        width: 90%;
+    }
+
+    .tag-tipoReceita_cabecalho_modal-receitas{
+        font-size: 13px;
+        left: 12px;
+    }
+
+    .nome-receita_conteudo_modal-receitas{
+        font-size: 20px;
+    }
+
+    .preco_botao-adicionar_conteudo_modal-receitas{
+        margin: 25px 0;
+    }
+
+    .preco_conteudo_modal-receitas{
+        font-size: 20px;
+    }
+
+    .botao-adicionar_conteudo_modal-receitas{
+        width: 40%;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .titulo_conteudo_modal-receitas{
+        font-size: 16px;
+    }
+
+    .lista-ingredientes_conteudo_modal-receitas{
+        overflow-y: auto;
+        flex-wrap: nowrap;
+    }
+
+    .tempo-dificuldade-porcao_modal-receitas{
+        transform: scale(0.8);  
+    }
+
+    .porcao_modal-receitas {
+        right: 17px;
+    }
+}
+
+/* Tablet */
+@media(max-width:768px){
+    .nome-receita_conteudo_modal-receitas{
+        font-size: 25px;
+    }
+
+    .botao-adicionar_conteudo_modal-receitas{
+        width: 35%;
+    }
+
+    .lista-ingredientes_conteudo_modal-receitas{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .porcao_modal-receitas{
+        right: 30px;
+    }
+
+}
+
+/* Desktop */
+@media(max-width: 1024px){
+    .porcao_modal-receitas{
+        right: 15px;
+    }
+}
+
