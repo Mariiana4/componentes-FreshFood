@@ -1,0 +1,44 @@
+.titulo_carrinho-compras{
+    text-align: center;
+    font-weight: bold;
+    color: #FE4617;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Item do carrinho */
+.container_item_carrinho-compras{
+    display: flex;
+    background: pink;
+    justify-content: space-between;
+}
+
+/* Imagem */
+.imagem_item_carrinho-compras{
+    width: 10%;
+    border-radius: 15%;
+}
+
+/* Img e tag */
+.img_nome-tag{
+    display: flex;
+}
+
+/* Nome, tag e botão de remover */
+.container_nome_tag_botao-remover_carrinho-compras{
+    flex-direction: column;
+}
+
+/* Tag e botão de remover */
+.container_tag-botaoRemover_carrinho-compras{
+    display: flex;
+}
+
+/* Preço e quantidade */
+.preco_quantidade_carrinho-compras{
+}
+
+/* adicionar, retirar e quantidade */
+.container_quantidade{
+    display: flex;
+}
