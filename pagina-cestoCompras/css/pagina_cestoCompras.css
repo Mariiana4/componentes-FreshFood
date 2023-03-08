@@ -37,7 +37,7 @@
     width: 100%;
     height: 90%;
     margin: auto;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .nome_cestoDeCompras{
@@ -49,22 +49,41 @@
     display: flex;
     /* background: palevioletred; */
     justify-content: space-between;
-    width: 30%;
+    width: 25%;
 }
 
 .tag_cestoDeCompras{
     background: green;
     border-radius: 45px;
-    padding: 0px 5px;
+    padding: 0px 10px;
     font-weight: bold;
     color: #fff;
     font-size: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .remover_cestoDeCompras{
     font-weight: bold;
     color: #717171;
     cursor: pointer;
+    transition: all 0.7s;
+    padding: 5px;
+}
+.remover_cestoDeCompras:hover{
+    /* background: #f75b3466; */
+    /* background: #fe451742;
+    color: #ffffff; */
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+.remover_cestoDeCompras:active{
+    background: #f87c5d; 
+    background: #fe4517aa;
+    color: #FFF; 
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .preco_quantidade_cestoDeCompras{
@@ -95,6 +114,7 @@
 .remover_quantidade_cestoDeCompras, .adicionar_quantidade_cestoDeCompras{
     cursor: pointer;
 }
+
 
 /* .quantidade_cestoDeCompras{} */
 
