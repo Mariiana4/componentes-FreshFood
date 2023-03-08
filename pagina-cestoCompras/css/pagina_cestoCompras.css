@@ -2,9 +2,10 @@
     text-align: center;
     color: #FE4617;
     font-weight: bold;
+    margin: 0 0 30px 0;
 }
 
-.container_item_cestoDeCompras{
+.container_informacoes_cestoDeCompras{
     display: flex;
     /* background-color: red; */
     width: 90%;
@@ -17,6 +18,7 @@
     margin: auto 0;
     object-fit: cover;
     height: 90%;
+    border-radius: 30px;
 }
 
 .item_cestoDeCompras{
@@ -76,6 +78,7 @@
 .preco_cestoDeCompras{
     /* background: #9bffb4; */
     font-size: 23px;
+    margin-bottom: 20px;
 }
 
 .container_quantidade_cestoDeCompras{
@@ -97,5 +100,6 @@
 
 .linha-divisao_cestoDeCompras{
     width: 90%;
-    margin: auto;
+    margin: 30px auto;
+    border: 1px solid #D9D9D9;  
 }
