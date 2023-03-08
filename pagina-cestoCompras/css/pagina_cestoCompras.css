@@ -88,3 +88,8 @@
 }
 
 /* .quantidade_cestoDeCompras{} */
+
+.linha-divisao_cestoDeCompras{
+    width: 90%;
+    margin: auto;
+}
